@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block title %}Tambah Mahasiswa{% endblock %}
+
+{% block content %}
+
+<div class="card shadow">
+
+    <div class="card-body">
+
+        <h2 class="text-primary mb-4">
+            Tambah Mahasiswa
+        </h2>
+
+        <form method="POST">
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Nama
+                </label>
+
+                <input
+                    type="text"
+                    name="nama"
+                    class="form-control"
+                    required>
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    NIM
+                </label>
+
+                <input
+                    type="text"
+                    name="nim"
+                    class="form-control"
+                    required>
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Jurusan
+                </label>
+
+                <input
+                    type="text"
+                    name="jurusan"
+                    class="form-control"
+                    required>
+
+            </div>
+
+            <button class="btn btn-primary w-100">
+
+                Simpan Data
+
+            </button>
+
+            <a href="{{ url_for('mahasiswa') }}"
+               class="btn btn-secondary w-100 mt-2">
+
+                Kembali
+
+            </a>
+
+        </form>
+
+    </div>
+
+</div>
+
+{% endblock %}

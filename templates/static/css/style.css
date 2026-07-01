@@ -1,0 +1,118 @@
+/* ===========================
+   BODY
+=========================== */
+
+body{
+    background:#f4f6f9;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+.navbar-brand{
+    font-size:22px;
+    font-weight:bold;
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.card{
+    border:none;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card-body{
+    padding:30px;
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.btn{
+    border-radius:10px;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+/* ===========================
+   FORM
+=========================== */
+
+.form-control{
+    border-radius:10px;
+}
+
+.form-label{
+    font-weight:600;
+}
+
+/* ===========================
+   TABLE
+=========================== */
+
+.table{
+    background:#ffffff;
+}
+
+.table th{
+    text-align:center;
+    vertical-align:middle;
+}
+
+.table td{
+    vertical-align:middle;
+}
+
+/* ===========================
+   SHADOW
+=========================== */
+
+.shadow{
+    box-shadow:0 8px 18px rgba(0,0,0,.12)!important;
+}
+
+/* ===========================
+   ALERT
+=========================== */
+
+.alert{
+    border-radius:10px;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+    background:#ffffff;
+}
+
+footer p{
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+/* ===========================
+   TITLE
+=========================== */
+
+h2{
+    font-weight:bold;
+}

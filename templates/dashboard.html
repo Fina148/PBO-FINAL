@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+
+<div class="row">
+
+    <div class="col-md-12">
+
+        <div class="card shadow">
+
+            <div class="card-body">
+
+                <h2 class="text-primary">
+
+                    Dashboard
+
+                </h2>
+
+                <hr>
+
+                <h4>
+
+                    Selamat Datang,
+                    <span class="text-success">
+
+                        {{ user.username }}
+
+                    </span>
+
+                </h4>
+
+                <p>
+
+                    Selamat datang di Sistem Informasi Data Mahasiswa.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<br>
+
+<div class="row">
+
+    <div class="col-md-4">
+
+        <div class="card bg-primary text-white shadow">
+
+            <div class="card-body text-center">
+
+                <h5>Total Mahasiswa</h5>
+
+                <h1>{{ jumlah_mahasiswa }}</h1>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
